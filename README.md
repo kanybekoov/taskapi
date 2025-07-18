@@ -29,6 +29,10 @@ application.properties
 TaskService.java:
   - 29 line: emailService.sendTaskCreated(created, "youremail@gmail.com"); // to which email sent
 
+  - authorization to make any request:
+    username: user
+    password: user123
+
 Not implemented:
 - Unit tests
 - Docker 
