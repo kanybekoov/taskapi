@@ -20,5 +20,9 @@ CRUD app taskapi on Spring.
 
 7) Implemented caching for "Get all tasks" using Redis.
 
-Requirements:
-
+NOTES: for testing purposes i used my own @gmail account to get notification when new task added. You can replace to your own in following files:
+application.properties
+- 15 line: spring.mail.username=youremail@gmail.com
+- 16 line: spring.mail.password=yourpassword
+TaskService:
+- 29 line: emailService.sendTaskCreated(created, "youremail@gmail.com"); // to which email sent
