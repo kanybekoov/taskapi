@@ -28,3 +28,7 @@ application.properties
 
 TaskService.java:
   - 29 line: emailService.sendTaskCreated(created, "youremail@gmail.com"); // to which email sent
+
+Not implemented:
+- Unit tests
+- Docker 
